@@ -14,6 +14,7 @@
 		960087A11DB1C69F00E1E4B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9600879F1DB1C69F00E1E4B3 /* LaunchScreen.storyboard */; };
 		960087AC1DB1C69F00E1E4B3 /* XPTestGitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960087AB1DB1C69F00E1E4B3 /* XPTestGitTests.swift */; };
 		960087B71DB1C69F00E1E4B3 /* XPTestGitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960087B61DB1C69F00E1E4B3 /* XPTestGitUITests.swift */; };
+		960087C51DB1CDCF00E1E4B3 /* a.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960087C41DB1CDCF00E1E4B3 /* a.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		960087B21DB1C69F00E1E4B3 /* XPTestGitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XPTestGitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		960087B61DB1C69F00E1E4B3 /* XPTestGitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XPTestGitUITests.swift; sourceTree = "<group>"; };
 		960087B81DB1C69F00E1E4B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		960087C41DB1CDCF00E1E4B3 /* a.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = a.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				9600879D1DB1C69F00E1E4B3 /* Assets.xcassets */,
 				9600879F1DB1C69F00E1E4B3 /* LaunchScreen.storyboard */,
 				960087A21DB1C69F00E1E4B3 /* Info.plist */,
+				960087C41DB1CDCF00E1E4B3 /* a.swift */,
 			);
 			path = XPTestGit;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				960087C51DB1CDCF00E1E4B3 /* a.swift in Sources */,
 				960087991DB1C69F00E1E4B3 /* ViewController.swift in Sources */,
 				960087971DB1C69F00E1E4B3 /* AppDelegate.swift in Sources */,
 			);
@@ -482,6 +486,7 @@
 				960087BD1DB1C69F00E1E4B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		960087BE1DB1C69F00E1E4B3 /* Build configuration list for PBXNativeTarget "XPTestGitTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				960087C01DB1C69F00E1E4B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		960087C11DB1C69F00E1E4B3 /* Build configuration list for PBXNativeTarget "XPTestGitUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				960087C31DB1C69F00E1E4B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

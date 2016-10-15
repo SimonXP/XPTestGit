@@ -1,6 +1,7 @@
 version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
 options: "8ed13e28538553b92d5e4db355cf5cc1"
-build_time: [529812685, 201172000]
+build_time: [529814224, 617915000]
 inputs:
-  "/Users/ihome/Desktop/XPTestGit/XPTestGit/ViewController.swift": !dirty [529812383, 0]
+  "/Users/ihome/Desktop/XPTestGit/XPTestGit/a.swift": !dirty [9223372036854775807, 0]
+  "/Users/ihome/Desktop/XPTestGit/XPTestGit/ViewController.swift": !private [529813582, 0]
   "/Users/ihome/Desktop/XPTestGit/XPTestGit/AppDelegate.swift": !dirty [529812383, 0]
